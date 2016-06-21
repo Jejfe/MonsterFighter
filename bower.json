@@ -1,0 +1,21 @@
+{
+  "name": "monsterfighter",
+  "description": "A turnbased game where you fight with your monster.",
+  "main": "server.js",
+  "authors": [
+    "Christoffer Olsson"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Jejfe/MonsterFighter",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
