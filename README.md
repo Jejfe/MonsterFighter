@@ -9,6 +9,12 @@ npm install
 ```
 in your prefered shell/bash/terminal/command prompt.
 
+After installing node modules you need to install bower dependencies by typing
+```
+bower install
+``` 
+in your prefered shell/bash/terminal/command prompt.
+
 ## Express
 The base for the server is Express. You find information about it on <http://expressjs.com>
 
