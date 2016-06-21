@@ -1,10 +1,14 @@
 var express = require('express');
+var path = require('path');
+
 var app = express();
 
 app.set('port', (process.env.PORT || 5000));
+app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'views'));
 
 app.get('/', function (req, res) {
-  res.send('<h2>MonsterFighter!</h2>');
+  res.render('index');
 });
 
 app.listen(app.get('port'), function () {
