@@ -9,3 +9,8 @@ npm install
 ```
 in your prefered shell/bash/terminal/command prompt.
 
+## Express
+The base for the server is Express. You find information about it on <http://expressjs.com>
+
+## EJS
+For rendering views it uses EJS. You find information about it on <http://www.embeddedjs.com>
